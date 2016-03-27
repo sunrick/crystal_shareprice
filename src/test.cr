@@ -1,5 +1,9 @@
 require "./test/*"
+require "kemal"
 
 module Test
-  # TODO Put your code here
 end
+get "/" do
+  "Hello World!"
+end
+Kemal.run
