@@ -1,1 +1,1 @@
-require './src/test.cr'
+require "./src/test.cr"
