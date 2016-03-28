@@ -6,6 +6,6 @@ Simple crystal web server app to pull share prices from Yahoo finance
 
 # Command for deploying to heroku
 
-heroku create crystaltestapp --buildpack https://github.com/zamith/heroku-buildpack-crystal.git
+`heroku create crystaltestapp --buildpack https://github.com/zamith/heroku-buildpack-crystal.git`
 
 Looks for `app.cr` file in main directory.
