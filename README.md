@@ -1,41 +1,11 @@
-# test
+# Crystal share price app
 
-TODO: Write a description here
+Simple crystal web server app to pull share prices from Yahoo finance
 
-## Installation
+[See it live on heroku!](https://crystaltestapp.herokuapp.com/)
 
+# Command for deploying to heroku
 
-Add this to your application's `shard.yml`:
+heroku create crystaltestapp --buildpack https://github.com/zamith/heroku-buildpack-crystal.git
 
-```yaml
-dependencies:
-  test:
-    github: [your-github-name]/test
-```
-
-
-## Usage
-
-
-```crystal
-require "test"
-```
-
-
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
-
-## Contributing
-
-1. Fork it ( https://github.com/[your-github-name]/test/fork )
-2. Create your feature branch (git checkout -b my-new-feature)
-3. Commit your changes (git commit -am 'Add some feature')
-4. Push to the branch (git push origin my-new-feature)
-5. Create a new Pull Request
-
-## Contributors
-
-- [[your-github-name]](https://github.com/[your-github-name]) Rickard Sunden - creator, maintainer
+Looks for `app.cr` file in main directory.
